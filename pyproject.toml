@@ -1,0 +1,18 @@
+[project]
+name = "phoneme-converter"
+version = "20250620"
+description = "Phoneme format converter for IPA arpa etc."
+readme = "README.md"
+license = { text = "MIT license" }
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/qiziAI/phoneme-converter"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["phoneme_converter"]
